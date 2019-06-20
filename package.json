@@ -1,0 +1,30 @@
+{
+  "name": "stg-reminder-service-alert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rafaellopes.au/stg-reminder-service-alert.git"
+  },
+  "author": "Rafael Lopes - Media Booth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rafaellopes.au/stg-reminder-service-alert/issues"
+  },
+  "homepage": "https://gitlab.com/rafaellopes.au/stg-reminder-service-alert#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "download-file": "^0.1.5",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "google-spreadsheet": "^2.0.7",
+    "mysql": "^2.17.1",
+    "read-excel-file": "^4.0.1",
+    "sppull": "^2.3.3"
+  }
+}
